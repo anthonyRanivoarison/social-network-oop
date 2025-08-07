@@ -11,7 +11,7 @@ public class Post {
     private LocalDate createdAt;
     private List<String> media;
     private String visibility;
-    List<Comment> Comments;
+    List<Comment> comments;
 
 
 
@@ -40,7 +40,7 @@ public class Post {
     }
 
     public List<Comment> getComments() {
-        return Comments;
+        return comments;
     }
 
 }
