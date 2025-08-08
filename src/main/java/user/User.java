@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 
 public class User {
-    private String id ;
-    private String name;
-    private String email;
-    private LocalDate creationDate;
+    private final String id ;
+    private final String name;
+    private final String email;
+    private final LocalDate creationDate;
 
     public User(String id, String name, String email, LocalDate creationDate) {
         this.id = id;
@@ -31,5 +31,4 @@ public class User {
     public String getName() {
         return name;
     }
-    public
 }
