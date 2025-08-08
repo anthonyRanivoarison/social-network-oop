@@ -8,15 +8,12 @@ public class Comment {
     String content;
     User author;
     LocalDate createdAt;
-    private static ArrayList<Comment> everyComments = new ArrayList<Comment>();
-
 
     public Comment(String id, String content, User author, LocalDate createdAt){
         this.id = id;
         this.content = content;
         this.author = author;
         this.createdAt = createdAt;
-        everyComments.add(this);
     }
 
     public User getAuthor() {
@@ -27,11 +24,4 @@ public class Comment {
         return content;
     }
 
-    public static ArrayList<Comment> getEveryComments() {
-        return everyComments;
-    }
-
-    public static void setEveryComments(ArrayList<Comment> everyComments) {
-        Comment.everyComments = everyComments;
-    }
 }
