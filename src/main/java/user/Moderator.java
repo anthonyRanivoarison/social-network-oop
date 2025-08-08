@@ -1,4 +1,4 @@
 package user;
 
-public class Moderator {
+public class moderator {
 }
